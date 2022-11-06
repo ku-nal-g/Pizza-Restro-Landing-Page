@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/restro-landing-page",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
