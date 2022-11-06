@@ -8,6 +8,7 @@ import { Component, HostListener } from '@angular/core';
 export class AppComponent {
 
   showTopButton: boolean = false;
+  openOverLay:boolean = false;
 
   @HostListener("window: scroll", []) onWindowScroll() {
     this.scrollFunction();
@@ -25,6 +26,16 @@ export class AppComponent {
   }
   getClass() {
     return this.showTopButton ? "showBtn" : "hideBtn";
+  }
+  openNav(){
+    this.openOverLay = true;
+    // document.getElementById("myNav").style.width = "100%";
+  }
+  closeNav(){
+    this.openOverLay = false;
+  }
+  getOverLayClass(){
+    return this.openOverLay ? "fullWidthOverlay" : "collapseOverLay";
   }
 
 }

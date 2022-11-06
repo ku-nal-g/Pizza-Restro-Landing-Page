@@ -6,7 +6,7 @@
     <a href="#contact-page" class="p-3">Contact</a>
   </div>
   <div class="navbar-div2">
-    <span class="ps-3" style="color: white; cursor: pointer;">
+    <span (click)="openNav()" class="ps-3" style="color: white; cursor: pointer;">
       <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list"
         viewBox="0 0 16 16">
         <path fill-rule="evenodd"
@@ -14,6 +14,19 @@
       </svg>
     </span>
   </div>
+
+  <!-- full screen overlay-->
+  <div [ngClass]="getOverLayClass()" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="#">Home</a>
+      <a href="#menu-items">Menu</a>
+      <a href="#about-page">About</a>
+      <a href="#contact-page">Contact</a>
+    </div>
+  </div>
+
+
   <div class="text-div">
     <div class="text1">
       <p>Thin</p>
