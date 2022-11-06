@@ -1,0 +1,83 @@
+.about-div {
+  background-color: rgb(139, 95, 91);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+  justify-content: center;
+}
+
+.heading p {
+  font-size: 4rem;
+}
+
+.about-text {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.about-text p {
+  font-size: 2rem;
+}
+
+.chef-div {
+  width: 100%;
+  padding-left: 10%;
+  padding: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.chef-div p {
+  font-size: 2rem;
+}
+
+.chef_image {
+  width: 180px;
+  border-radius: 50%;
+  vertical-align: middle;
+  border-style: none;
+}
+
+.interior-image {
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  border-style: none;
+}
+
+.interior-image img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.opening-time {
+  width: 100%;
+}
+
+.opening-time p {
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.lists-div{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 8%;
+  padding-right: 8%;
+  // justify-content: ;
+}
+.list1-div{
+  margin-right: 25%;
+}
+.list1-div ul li{
+  list-style: none;
+  font-size: 2.2rem ;
+}
+.list2-div ul li{
+  list-style: none;
+  font-size: 2.2rem ;
+}

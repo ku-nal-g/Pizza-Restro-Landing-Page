@@ -1,0 +1,60 @@
+<div id="header-div" class="header-div">
+  <div class="navbar-div1">
+    <a href="#hedaing-div" class="me-2 p-3">Home</a>
+    <a href="#menu-items" class="me-2 p-3">Menu</a>
+    <a href="#about-page" class="me-2 p-3">About</a>
+    <a href="#contact-page" class="p-3">Contact</a>
+  </div>
+  <div class="navbar-div2">
+    <span class="ps-3" style="color: white; cursor: pointer;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list"
+        viewBox="0 0 16 16">
+        <path fill-rule="evenodd"
+          d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+      </svg>
+    </span>
+  </div>
+  <div class="text-div">
+    <div class="text1">
+      <p>Thin</p>
+    </div>
+    <div class="text2">
+      <p>Crust Pizza</p>
+    </div>
+    <div class="button-div">
+      <a href="#menu-items" class="ps-5 pt-2 pe-5 pb-2">LET ME SEE THE MENU</a>
+    </div>
+  </div>
+  <div class="timing-div p-2">
+    <button class="know-btn p-1">Open from 10am to 12pm</button>
+  </div>
+</div>
+
+<section id="menu-items">
+  <app-menu></app-menu>
+</section>
+
+<section id="about-page">
+  <app-about></app-about>
+</section>
+
+<section>
+  <app-location></app-location>
+</section>
+
+<section id="contact-page">
+  <app-contact></app-contact>
+</section>
+
+<section>
+  <app-footer></app-footer>
+</section>
+
+
+<!--Scroll to top button -->
+<button title="Go To Top" (click)="topFunction()" class="top-btn" [ngClass]="getClass()" title="Go to top"><svg
+    xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up"
+    viewBox="0 0 16 16">
+    <path fill-rule="evenodd"
+      d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z" />
+  </svg></button>
