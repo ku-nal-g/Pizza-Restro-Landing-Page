@@ -15,7 +15,7 @@
   width: 70%;
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid #ddd;
+  border-top: 1px solid #ddd;
 }
 
 .menu-anchor-div a {
@@ -28,7 +28,8 @@
 }
 
 .anchor1 {
-  width: 33%;
+  width: 312px;
+  // width: 33%;
   color: white;
   cursor: pointer;
   display: flex;
@@ -38,7 +39,8 @@
 }
 
 .anchor2 {
-  width: 33%;
+  width: 312px;
+  // width: 33%;
   color: white;
   cursor: pointer;
   display: flex;
@@ -52,7 +54,8 @@
 }
 
 .anchor3 {
-  width: 34%;
+   width: 317px;
+  // width: 34%;
   color: white;
   cursor: pointer;
   display: flex;

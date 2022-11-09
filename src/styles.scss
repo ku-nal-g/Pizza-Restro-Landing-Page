@@ -1,19 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
-*{
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto Slab', serif;
   word-wrap: break-word;
 }
-html,body{
+
+html,
+body {
   height: 100%;
   scroll-behavior: smooth;
 }
-img{
+
+img {
   object-fit: cover;
   vertical-align: middle;
 }
+
 // scroll bar customization
 /* width */
 ::-webkit-scrollbar {
