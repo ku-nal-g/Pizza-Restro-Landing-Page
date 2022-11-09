@@ -42,7 +42,8 @@
 }
 
 .navbar-div1 a:hover {
-  background-color: rgb(204, 204, 204);
+  background: rgb(204, 204, 204);
+  transition: background 0.5s ease-in-out;
   font-size: 1.3rem;
   cursor: pointer;
 }
@@ -68,7 +69,19 @@
 
 .button-div a {
   background: black;
+  transition: background 0.5s ease-in-out;
   color: white;
+  font-size: 2rem;
+  text-decoration: none;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.button-div a:hover {
+  background: transparent;
+  color: black;
+  background-color: white;
   font-size: 2rem;
   text-decoration: none;
 }
@@ -102,7 +115,8 @@
 }
 
 .top-btn:hover {
-  background-color: #555;
+  background: #555;
+  transition: background 0.5s ease-in-out;
 }
 
 // full screen overlay css
