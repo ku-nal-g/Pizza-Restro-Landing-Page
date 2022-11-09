@@ -29,7 +29,6 @@ export class AppComponent {
   }
   openNav(){
     this.openOverLay = true;
-    // document.getElementById("myNav").style.width = "100%";
   }
   closeNav(){
     this.openOverLay = false;

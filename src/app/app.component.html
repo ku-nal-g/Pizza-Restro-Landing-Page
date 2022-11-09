@@ -19,10 +19,10 @@
   <div [ngClass]="getOverLayClass()" class="overlay">
     <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
     <div class="overlay-content">
-      <a href="#">Home</a>
-      <a href="#menu-items">Menu</a>
-      <a href="#about-page">About</a>
-      <a href="#contact-page">Contact</a>
+      <a (click)="closeNav()" href="#">Home</a>
+      <a (click)="closeNav()" href="#menu-items">Menu</a>
+      <a (click)="closeNav()" href="#about-page">About</a>
+      <a (click)="closeNav()" href="#contact-page">Contact</a>
     </div>
   </div>
 
